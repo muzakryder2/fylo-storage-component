@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Font - Raleway [400, 700] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="app__main">
+      <section class="app__main-left">
+        <img src="./images/logo.svg" alt="fylo-logo" />
+        <div class="app__main-left__iconWrapper">
+          <img class="icon" src="./images/icon-document.svg" alt="file" />
+          <img class="icon" src="./images/icon-folder.svg" alt="folder" />
+          <img class="icon" src="./images/icon-upload.svg" alt="upload" />
+        </div>
+      </section>
+      <section class="app__main-right">
+        <div class="speech-bubble">
+          <p class="speech-text">
+            <span class="speech-text-lg">185</span> GB left
+          </p>
+          <div class="speech-flag"></div>
+        </div>
+        <div class="app__main-right__content">
+          <p>
+            You've used <span class="bold-text">815 GB</span> of your storage
+          </p>
+          <div class="app__main-right__progress-bar">
+            <div class="progress">
+              <div class="dot"></div>
+            </div>
+          </div>
+          <div class="storage-range">
+            <p class="bold-text">0 GB</p>
+            <p class="bold-text">1000 GB</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Daniel Castillo</a>.
+    </div>
+  </body>
+</html>
